@@ -1,0 +1,238 @@
+═══════════════════════════════════════════════════════════════
+  MYPOWERLY STORE - WORDPRESS WOOCOMMERCE THEME
+  Installation Instructions
+═══════════════════════════════════════════════════════════════
+
+Thank you for choosing MyPowerly Store! This document will guide you
+through the installation process.
+
+═══════════════════════════════════════════════════════════════
+  QUICK START (5 MINUTES)
+═══════════════════════════════════════════════════════════════
+
+1. Install WordPress (if not already installed)
+2. Install WooCommerce plugin
+3. Upload and activate MyPowerly Store theme
+4. Configure basic settings
+5. Add products and start selling!
+
+═══════════════════════════════════════════════════════════════
+  SYSTEM REQUIREMENTS
+═══════════════════════════════════════════════════════════════
+
+✓ WordPress 6.0 or higher
+✓ PHP 7.4 or higher
+✓ MySQL 5.6 or higher
+✓ WooCommerce 7.0 or higher (required)
+✓ Modern web browser
+✓ HTTPS/SSL certificate (recommended for e-commerce)
+
+═══════════════════════════════════════════════════════════════
+  STEP 1: INSTALL WOOCOMMERCE
+═══════════════════════════════════════════════════════════════
+
+1. Log in to WordPress Admin
+2. Go to: Plugins → Add New
+3. Search for "WooCommerce"
+4. Click "Install Now" then "Activate"
+5. Complete the WooCommerce Setup Wizard
+
+═══════════════════════════════════════════════════════════════
+  STEP 2: INSTALL THEME
+═══════════════════════════════════════════════════════════════
+
+METHOD A: Via WordPress Admin (Recommended)
+--------------------------------------------
+1. Go to: Appearance → Themes → Add New
+2. Click "Upload Theme"
+3. Choose the mypowerly-store.zip file
+4. Click "Install Now"
+5. Click "Activate"
+
+METHOD B: Via FTP
+-----------------
+1. Extract mypowerly-store.zip
+2. Upload the "mypowerly-store" folder to:
+   /wp-content/themes/
+3. Go to: Appearance → Themes
+4. Activate "MyPowerly Store"
+
+═══════════════════════════════════════════════════════════════
+  STEP 3: BASIC CONFIGURATION
+═══════════════════════════════════════════════════════════════
+
+Set Homepage
+------------
+1. Go to: Settings → Reading
+2. Select "A static page"
+3. Front page: Home
+4. Posts page: Blog (or Shop)
+5. Save Changes
+
+Customize Hero Section
+----------------------
+1. Go to: Appearance → Customize → Hero Section
+2. Set:
+   - Hero Title: "Welcome to MyPowerly Store"
+   - Hero Subtitle: Your tagline
+   - Button Text: "Shop Now"
+   - Button URL: "/shop"
+3. Click "Publish"
+
+Upload Logo
+-----------
+1. Go to: Appearance → Customize → Site Identity
+2. Click "Select Logo"
+3. Upload your logo (recommended: 200x60px PNG)
+4. Set Site Icon (favicon, 512x512px)
+5. Click "Publish"
+
+═══════════════════════════════════════════════════════════════
+  STEP 4: CREATE MENUS
+═══════════════════════════════════════════════════════════════
+
+Primary Menu
+------------
+1. Go to: Appearance → Menus
+2. Create new menu: "Primary Menu"
+3. Add pages: Home, Shop, About, Contact
+4. Check "Primary Menu" location
+5. Save Menu
+
+Footer Menu
+-----------
+1. Create new menu: "Footer Menu"
+2. Add pages: Privacy Policy, Terms, Contact
+3. Check "Footer Menu" location
+4. Save Menu
+
+═══════════════════════════════════════════════════════════════
+  STEP 5: ADD PRODUCTS
+═══════════════════════════════════════════════════════════════
+
+1. Go to: Products → Add New
+2. Enter product details:
+   - Title
+   - Description
+   - Price
+   - Images
+   - Categories
+3. Check "Featured Product" for homepage display
+4. Publish
+
+TIP: Use the demo-products.json file as a reference for
+     product data and structure.
+
+═══════════════════════════════════════════════════════════════
+  STEP 6: CONFIGURE WOOCOMMERCE
+═══════════════════════════════════════════════════════════════
+
+Payment Gateways
+----------------
+1. Go to: WooCommerce → Settings → Payments
+2. Enable: Stripe, PayPal, or other gateways
+3. Configure API keys
+4. Test in sandbox mode first
+
+Shipping
+--------
+1. Go to: WooCommerce → Settings → Shipping
+2. Add shipping zones
+3. Configure shipping methods
+4. Set shipping costs
+
+Tax (if applicable)
+-------------------
+1. Go to: WooCommerce → Settings → Tax
+2. Enable tax calculations
+3. Set tax rates for your location
+
+═══════════════════════════════════════════════════════════════
+  OPTIONAL: RECOMMENDED PLUGINS
+═══════════════════════════════════════════════════════════════
+
+✓ Contact Form 7 - For contact forms
+✓ Yoast SEO - For search engine optimization
+✓ WP Super Cache - For performance
+✓ Smush - For image optimization
+✓ Wordfence Security - For security
+✓ UpdraftPlus - For backups
+
+═══════════════════════════════════════════════════════════════
+  TESTING YOUR STORE
+═══════════════════════════════════════════════════════════════
+
+Before going live, test:
+
+□ Browse products
+□ Add items to cart
+□ Proceed to checkout
+□ Complete test order
+□ Check email notifications
+□ Test on mobile devices
+□ Verify payment processing
+□ Check all page links
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+Products not showing?
+→ Go to Settings → Permalinks and click "Save Changes"
+
+Images not displaying?
+→ Check file permissions on /wp-content/uploads/ (755)
+
+Styles not loading?
+→ Clear browser cache (Ctrl+Shift+R)
+
+Button hover not working?
+→ Ensure JavaScript is enabled in browser
+
+Payment gateway errors?
+→ Verify API keys and test mode settings
+
+═══════════════════════════════════════════════════════════════
+  DOCUMENTATION
+═══════════════════════════════════════════════════════════════
+
+For detailed guides, see:
+
+• README.md - Overview and features
+• SETUP-GUIDE.md - Complete setup walkthrough
+• CUSTOMIZATION-GUIDE.md - How to customize
+• THEME-FEATURES.md - Full feature list
+
+═══════════════════════════════════════════════════════════════
+  SUPPORT
+═══════════════════════════════════════════════════════════════
+
+Need help?
+
+Email: support@mypowerly.com
+Documentation: See included .md files
+Video Tutorials: [Your YouTube channel]
+
+═══════════════════════════════════════════════════════════════
+  NEXT STEPS
+═══════════════════════════════════════════════════════════════
+
+After installation:
+
+1. Add more products
+2. Configure shipping and taxes
+3. Set up payment gateways
+4. Create essential pages (About, Contact, etc.)
+5. Configure email notifications
+6. Set up Google Analytics
+7. Install SSL certificate
+8. Test thoroughly before launch
+9. Announce your store launch!
+
+═══════════════════════════════════════════════════════════════
+
+Congratulations! Your MyPowerly Store is ready to go! 🎉
+
+Happy Selling!
+
+═══════════════════════════════════════════════════════════════

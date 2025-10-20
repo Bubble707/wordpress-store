@@ -1,0 +1,170 @@
+{
+  "demo_products": [
+    {
+      "title": "Premium Wireless Headphones",
+      "description": "Experience crystal-clear audio with our premium wireless headphones. Featuring active noise cancellation, 30-hour battery life, and comfortable over-ear design. Perfect for music lovers, travelers, and professionals who demand the best sound quality.",
+      "short_description": "Premium wireless headphones with active noise cancellation and 30-hour battery life.",
+      "regular_price": "99.99",
+      "sale_price": "79.99",
+      "sku": "WH-001",
+      "stock": 50,
+      "categories": ["Electronics", "Audio"],
+      "tags": ["wireless", "headphones", "audio", "noise-cancelling"],
+      "featured": true,
+      "weight": "0.5",
+      "dimensions": "20x15x8"
+    },
+    {
+      "title": "Smart Fitness Watch",
+      "description": "Track your fitness goals with our advanced smart fitness watch. Features include heart rate monitoring, GPS tracking, sleep analysis, and 50+ sport modes. Water-resistant up to 50m and compatible with iOS and Android devices.",
+      "short_description": "Advanced fitness watch with heart rate monitoring, GPS, and 50+ sport modes.",
+      "regular_price": "149.99",
+      "sale_price": "129.99",
+      "sku": "FW-002",
+      "stock": 75,
+      "categories": ["Electronics", "Fitness"],
+      "tags": ["smartwatch", "fitness", "health", "wearable"],
+      "featured": true,
+      "weight": "0.1",
+      "dimensions": "5x5x2"
+    },
+    {
+      "title": "Organic Cotton T-Shirt",
+      "description": "Sustainably made from 100% organic cotton, this premium t-shirt offers unmatched comfort and style. Available in multiple colors and sizes. Eco-friendly production process with minimal environmental impact. Perfect for everyday wear.",
+      "short_description": "Premium 100% organic cotton t-shirt in multiple colors.",
+      "regular_price": "29.99",
+      "sale_price": "",
+      "sku": "TS-003",
+      "stock": 200,
+      "categories": ["Fashion", "Clothing"],
+      "tags": ["organic", "cotton", "t-shirt", "sustainable"],
+      "featured": true,
+      "weight": "0.2",
+      "dimensions": "30x25x2"
+    },
+    {
+      "title": "Stainless Steel Water Bottle",
+      "description": "Keep your drinks cold for 24 hours or hot for 12 hours with our premium insulated water bottle. Made from high-quality stainless steel, BPA-free, and features a leak-proof lid. Available in 500ml and 750ml sizes.",
+      "short_description": "Insulated stainless steel water bottle keeps drinks cold for 24 hours.",
+      "regular_price": "24.99",
+      "sale_price": "19.99",
+      "sku": "WB-004",
+      "stock": 150,
+      "categories": ["Home & Garden", "Kitchen"],
+      "tags": ["water bottle", "insulated", "stainless steel", "eco-friendly"],
+      "featured": true,
+      "weight": "0.3",
+      "dimensions": "25x8x8"
+    },
+    {
+      "title": "Yoga Mat Pro",
+      "description": "Professional-grade yoga mat with superior grip and cushioning. Made from eco-friendly TPE material, non-slip surface, and includes carrying strap. Perfect for yoga, pilates, and general fitness exercises. Available in multiple colors.",
+      "short_description": "Professional eco-friendly yoga mat with superior grip and cushioning.",
+      "regular_price": "39.99",
+      "sale_price": "",
+      "sku": "YM-005",
+      "stock": 100,
+      "categories": ["Sports & Outdoors", "Fitness"],
+      "tags": ["yoga", "mat", "fitness", "exercise"],
+      "featured": true,
+      "weight": "1.2",
+      "dimensions": "180x60x0.6"
+    },
+    {
+      "title": "Portable Bluetooth Speaker",
+      "description": "Powerful portable speaker with 360-degree sound, 12-hour battery life, and IPX7 waterproof rating. Perfect for outdoor adventures, pool parties, and travel. Connects easily via Bluetooth 5.0 to any device.",
+      "short_description": "Waterproof portable Bluetooth speaker with 360-degree sound.",
+      "regular_price": "59.99",
+      "sale_price": "49.99",
+      "sku": "BS-006",
+      "stock": 80,
+      "categories": ["Electronics", "Audio"],
+      "tags": ["bluetooth", "speaker", "portable", "waterproof"],
+      "featured": false,
+      "weight": "0.6",
+      "dimensions": "15x15x10"
+    },
+    {
+      "title": "LED Desk Lamp",
+      "description": "Modern LED desk lamp with adjustable brightness and color temperature. Features USB charging port, touch controls, and energy-efficient LED technology. Perfect for home office, study, or bedside table.",
+      "short_description": "Adjustable LED desk lamp with USB charging port and touch controls.",
+      "regular_price": "34.99",
+      "sale_price": "",
+      "sku": "DL-007",
+      "stock": 60,
+      "categories": ["Home & Garden", "Lighting"],
+      "tags": ["led", "lamp", "desk", "lighting"],
+      "featured": false,
+      "weight": "0.8",
+      "dimensions": "40x15x15"
+    },
+    {
+      "title": "Bamboo Cutting Board Set",
+      "description": "Premium bamboo cutting board set includes 3 sizes for all your kitchen needs. Naturally antibacterial, eco-friendly, and gentle on knife blades. Features juice grooves and non-slip feet. Easy to clean and maintain.",
+      "short_description": "Eco-friendly bamboo cutting board set with 3 sizes.",
+      "regular_price": "44.99",
+      "sale_price": "39.99",
+      "sku": "CB-008",
+      "stock": 90,
+      "categories": ["Home & Garden", "Kitchen"],
+      "tags": ["bamboo", "cutting board", "kitchen", "eco-friendly"],
+      "featured": false,
+      "weight": "2.0",
+      "dimensions": "40x30x2"
+    }
+  ],
+  "product_categories": [
+    {
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Discover the latest in consumer electronics"
+    },
+    {
+      "name": "Fashion",
+      "slug": "fashion",
+      "description": "Trendy and sustainable fashion items"
+    },
+    {
+      "name": "Home & Garden",
+      "slug": "home-garden",
+      "description": "Beautiful items for your home and garden"
+    },
+    {
+      "name": "Sports & Outdoors",
+      "slug": "sports-outdoors",
+      "description": "Gear up for your outdoor adventures"
+    },
+    {
+      "name": "Fitness",
+      "slug": "fitness",
+      "description": "Everything you need for your fitness journey"
+    },
+    {
+      "name": "Audio",
+      "slug": "audio",
+      "description": "Premium audio equipment and accessories"
+    },
+    {
+      "name": "Kitchen",
+      "slug": "kitchen",
+      "description": "Essential kitchen tools and accessories"
+    },
+    {
+      "name": "Lighting",
+      "slug": "lighting",
+      "description": "Modern lighting solutions for every space"
+    }
+  ],
+  "setup_instructions": {
+    "step1": "Install WooCommerce plugin",
+    "step2": "Activate MyPowerly Store theme",
+    "step3": "Go to Products > Add New",
+    "step4": "Copy product details from this JSON file",
+    "step5": "Add product images (800x800px recommended)",
+    "step6": "Set featured products to display on homepage",
+    "step7": "Configure WooCommerce settings (currency, payment, shipping)",
+    "step8": "Create product categories from the list above",
+    "step9": "Assign products to appropriate categories",
+    "step10": "Test the store by adding products to cart"
+  }
+}
